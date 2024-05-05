@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gruppo', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background-color: #484848;
+    
+}
+
+h2, h3 {
+    color: #fbd38b;
+}
+
+
+p {
+    color: white;
+}
+
+
+pihak h3,li {
+    color: white;
+}
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #fbd38b;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.profile header {
+    text-align: center;
+}
+
+figcaption {
+    color: white;
+}
+td, th {
+    color: white;
+}
+
+figure img {
+    border-radius: 50%;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img{
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+    padding: 20px;
+   
+}
+.card .card-title{
+   color: white;
+   
+}
+
+aside section th{
+    text-align: left;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+}
+
+nav li {
+    list-style-type: none;
+  
+}
+
+nav {
+    background-color: #848484;
+    padding: 5px;
+
+    position:sticky;
+    top: 0;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+
+    color: white;
+}
+
+nav ul{
+    padding-inline: 4rem;
+    display: flex;
+
+    gap: 2rem;
+}
+
+main {
+    padding: 20px;
+
+    display: flex;
+    gap: 1.5rem;
+}
+
+#content {
+    flex: 5;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+
+aside {
+    flex:1;
+
+    
+}
+
+header {
+    display: inline;
+}
+
+#PihakTerlibat .Pihak h4 {
+    color: white;
+}
+
+
+.Pihak {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    overflow-y: auto;
+    max-height: 500px; 
+}
+
+#Artikel-lainnya {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto; 
+    max-height: 500px; 
+}
+
+
+
+.Readbutton {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Readbutton:hover {
+    background-color: #45a049;
+}
+
+/* Untuk perangkat layar 1200px dan dibawah*/
+@media screen and (max-width: 1200px) {
+    main {
+        flex-flow: column nowrap;
+    }
+
+    main aside {
+        align-self: center;
+    }
+}
+/* Untuk perangkat layar 768px dan dibawah*/
+@media screen and (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+}
